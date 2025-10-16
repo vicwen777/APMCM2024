@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       1.000
+Model:                            OLS   Adj. R-squared:                    nan
+Method:                 Least Squares   F-statistic:                       nan
+Date:                Sun, 24 Nov 2024   Prob (F-statistic):                nan
+Time:                        11:43:58   Log-Likelihood:                 172.85
+No. Observations:                   6   AIC:                            -333.7
+Df Residuals:                       0   BIC:                            -334.9
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         48.0916        inf          0        nan         nan         nan
+x1            -4.1849        inf         -0        nan         nan         nan
+x2            -0.1395        inf         -0        nan         nan         nan
+x3            34.3312        inf          0        nan         nan         nan
+x4             5.7560        inf          0        nan         nan         nan
+x5            -1.1503        inf         -0        nan         nan         nan
+x6          1.518e-14        inf          0        nan         nan         nan
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.174
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                2.541
+Skew:                           1.545   Prob(JB):                        0.281
+Kurtosis:                       3.788   Cond. No.                         4.76
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The input rank is higher than the number of observations.
